@@ -2,7 +2,7 @@ lunguage: node_js
 node_js:
   - "6.0"
 script: 
-  - echo "Deploying!!! $FIREBASE_TOKEN"
+  - echo $FIREBASE_TOKEN
 install: 
   - npm install -g firebase-tools
 after_success:
