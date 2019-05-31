@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8.16.0"
+  - "v8.16.0"
 script: 
   - echo "Deploying!!!"
 install: 
